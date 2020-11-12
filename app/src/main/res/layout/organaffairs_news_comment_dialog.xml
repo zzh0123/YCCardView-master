@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ns.yc.yccardviewlib.shadow.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:yc_cornerRadius="18dp"
+    app:yc_dx="0dp"
+    app:yc_dy="0dp"
+    app:yc_shadowColor="#2a000000"
+    app:yc_shadowLimit="5dp"
+    app:yc_leftShow="false"
+    app:yc_rightShow="false"
+    app:yc_bottomShow="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="20dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/organaffairs_comment_bg_shape">
+
+        <EditText
+            android:id="@+id/et_content"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="4"
+            android:background="@drawable/organaffairs_shape_f5f5f7"
+            android:gravity="start"
+            android:hint="1111"
+            android:lineSpacingExtra="2dp"
+            android:maxLength="100"
+            android:paddingLeft="13dp"
+            android:paddingTop="10dp"
+            android:paddingRight="22dp"
+            android:paddingBottom="10dp"
+            android:textColor="#333333"
+            android:textColorHint="#333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_publish_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/organaffairs_publish_bt_bg_abnormal"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="哈哈"
+            android:textColor="@color/organaffairs_color_FFFFFF"
+            android:textSize="14sp" />
+    </LinearLayout>
+</com.ns.yc.yccardviewlib.shadow.ShadowLayout>
